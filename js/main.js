@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("#server").click(function() {
-    $("#server-content").toggle();
+  $(".card-header-icon").click(function() {
+    $(this).parent().next().toggle();
   });
 });
